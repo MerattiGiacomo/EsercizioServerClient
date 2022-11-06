@@ -48,6 +48,7 @@ public class ServerStr {
                     break;
                 } 
                 else {
+                    client.close();
                     break;
                 }
                 
